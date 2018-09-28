@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>The Gemini's</title>
+    <link rel="stylesheet" type="text/css" href="band.css">
+    <script type="text/javascript" src="band.js"></script>
+    
+  </head>
+  <body>
+    <div id="main">
+
+      <h1>The Gemini's</h1>
+
+      <h3>About The Band</h3>
+      <p>We are a group of classic rock fans that decided we wanted to create our own rock group. We have been writing music and playing covers for about 2 years now and plan to keep at it as long as we can. </p>
+      <h3>Our Music</h3>
+      <audio src="" controls id="audioPlayer"></audio>
+      <ul id="playlist">
+        <li class="current-song"><a href="happyrock.mp3"></a>Happy Rock</li>
+        <li><a href="rumble.mp3"></a>Rumble</li>
+        <li><a href="badass.mp3"></a>Bad Ass</li>
+      </ul>
+      <div id="map"></div>
+      Jesse Haning
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script src="audioPlayer.js"></script>
+    <script>
+        // Audio player play list js modified codeherobase.com
+        // Music:www.bensound.com
+        audioPlayer();
+    </script>
+    
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-demqUJs0C-HLwx900k1Miny9FPwXfvQ&callback=initialize">
+    </script>
+
+    
+  </body>
+</html>
