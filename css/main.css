@@ -1,0 +1,18 @@
+.name-block {
+    font-size: 120%;
+    font-family: fantasy;
+    margin-bottom: 5em;
+}
+
+section {
+    background-color: lightskyblue;
+}
+
+footer {
+    background-color: blue;
+}
+
+footer p {
+    color: cornsilk;
+    text-align: center;
+}
