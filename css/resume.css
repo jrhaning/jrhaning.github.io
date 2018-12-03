@@ -197,3 +197,7 @@ a:active {
 #contact {
     display: block;
 }
+
+label {
+    display: block;
+}
