@@ -193,3 +193,7 @@ a:focus,
 a:active {
     color: #201104;
 }
+
+#contact {
+    float: left;
+}
