@@ -79,9 +79,10 @@ p.lead {
     font-size: 3rem;
 }
 
-.dev-icons .list-inline-item i:hover {
+
+/* .dev-icons .list-inline-item i:hover {
     color: #701700;
-}
+} */
 
 #sideNav .navbar-nav .nav-item .nav-link {
     font-weight: 800;

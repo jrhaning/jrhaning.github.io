@@ -57,8 +57,8 @@
 
         <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
             <div class="my-auto">
-                <h1 class="mb-0">Jesse
-                    <span class="text-primary">Haning</span>
+                <h1 class="mb-0" class="name-block">Jesse
+                    <span class="lname-block">Haning</span>
                 </h1>
                 <div class="subheading mb-5">· Lewiston, Idaho ·
                     <a href="mailto:jrhaning@lcmail.lcsc.edu">jrhaning@lcmail.lcsc.edu</a>
@@ -120,9 +120,6 @@
                     <i class="fab fa-angular"></i>
                 </li>
                 <li class="list-inline-item">
-                    <i class="fab fa-node-js"></i>
-                </li>
-                <li class="list-inline-item">
                     <i class="fab fa-sass"></i>
                 </li>
                 <li class="list-inline-item">
@@ -130,6 +127,12 @@
                 </li>
                 <li class="list-inline-item">
                     <i class="fab fa-npm"></i>
+                </li>
+                <li class="list-inline-item">
+                    <i class="fab fa-wordpress"></i>
+                </li>
+                <li class="list-inline-item">
+                    <i class="fab fa-python"></i>
                 </li>
             </ul>
     </div>
@@ -142,10 +145,41 @@
             <div class="resume-item d-flex flex-column flex-md-row mb-5">
                 <div class="resume-content mr-auto">
                     <div class="subheading mb-3">Past Projects</div>
-                    <p>Coming soon...</p>
+                    <p></p>
                     <h3 class="subheading mb-4">Wire frame and Storyboard</h3>
                     <p> <a href="https://drive.google.com/file/d/13Y_qjpCcop0626qZ8Zfnqo_8JVimkxw4/view?usp=sharing" target="_blank">Storyboard</a></p>
                     <p> <a href="https://drive.google.com/file/d/1eqtxjwS0O0AwFk4VEu8wQ205MfgeXKWj/view?usp=sharing" target="_black">Wire frame</a></p>
+                </div>
+    </section>
+
+    <hr class="m-0">
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="contact">
+        <div class="my-auto">
+            <h2 class="mb-5">Contact</h2>
+            <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                <div class="resume-content mr-auto">
+                    <div class="subheading mb-3">Contact Information</div>
+                    <form action="action_page.php">
+
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    
+                        <label for="country">Country</label>
+                        <select id="country" name="country">
+                          <option value="australia">Australia</option>
+                          <option value="canada">Canada</option>
+                          <option value="usa">USA</option>
+                        </select>
+                    
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                    
+                        <input type="submit" value="Submit">
+                    
+                      </form>
                 </div>
     </section>
 
