@@ -195,5 +195,5 @@ a:active {
 }
 
 #contact {
-    float: left;
+    display: inline-block;
 }
